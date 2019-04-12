@@ -130,9 +130,10 @@ header li a:hover:not(.active) {
     
 /*----------------------------------------------------------------------------------------- FOOTER -------*/
 footer {
-    text-align: center;
-    font-family: 'Athelas', serif;
-    padding: 0;
+    background-color: #000000;
+    font-family: 'Avenir', sans-serif;
+    width: 100%;
+    overflow: hidden;
 }
  
 
