@@ -1,103 +1,104 @@
-@media screen and (min-width: 600px) {
-    
+@media screen and (min-width: 1200px) {
+
+
+/*
+    #FFFFFF
+    #000000
+    #B7A9AD
+    #6B6466
+*/
     
 /*--------------------------------------------------------------------------------------------- ALL ------*/
-body{
-    background-color: #FFFFFF;
+html{
+   @import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
     width: auto;
-    font-family: 'Avenir', sans-serif;
 }
-   
+    
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #6B6466;
+    padding: 0;
+    margin: 0;
+}
+    
 h2{
-    text-align: center;
-    color: #FFFFFF;
-    padding: 20px;
-    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2em;
-    text-transform: uppercase;
+    color: #000000;
+    padding-top: 30px;
+    margin: 0;
+    text-align: center;
 }
 
 h3{
+    font-family: 'Playfair+Display', serif;
+    font-size: 1.5em;
+    color: #6B6466;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0;
     text-align: center;
-    font-size: 1em;
-    font-family: 'Avenir', sans-serif;
-    color: #ffffff;
-    font-weight: 100;
 }
     
 h4{
-    color: #ffc400;
-}
-
-    
-/*----------------------------------------------------------------------------------------- HEADER -------*/
-/*---------small css------*/
-/*
-    header img {
-    width: 80%;
-    height: auto;
-    align-content: center;
-    margin-top: 10px;
-}
-
-header{
-    background-color: #000000;
-    font-family: 'Avenir', sans-serif;
-    width: 100%;
-    overflow: hidden;
-}
-
-header ul {
-    list-style-type: none;
-    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #000000;
     padding: 0;
-    width: 100%;
+    margin: 0;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}    
+    
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
     color: #FFFFFF;
-    background-color: #323232;
-    border: 1px solid #000000;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
+    padding: 0;
+    margin: 0;
+} 
+    
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+    
+    
+.column1 {
+    float: left;
+    padding: 100px 15px 100px 30px;
+
+}
+    
+.column2 {
+    padding: 100px 30px 100px 15px; 
+    font-size: 1.8vw;
+    line-height: 1.4;
+    text-align: left;
+    font-weight: bold;
 }
 
-li a {
-    display: block;
-    color: #FFFFFF;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-li {
-    text-align: center;
-    border-bottom: 1px solid #000000;
-}
-
-li:last-child {
-    border-bottom: none;
-}
-
-li a.active {
-    background-color: #000000;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color:#000000;
-    color: white;
-}
-*/
 
     
     
-    
-    
-    
-    
+/*----------------------------------------------------------------------------------------- HEADER -------*/    
     
 header img {
     width: 40%;
     height: auto;
-     float: left; 
+    float: left; 
+    padding-left: 20px;
 }
 
 .navigation{
@@ -107,7 +108,8 @@ header img {
 }
 
 header ul {
-    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
     list-style-type: none;
     background-color: #323232;
     justify-content: center;
@@ -126,11 +128,11 @@ header li a:link {
 }
 
 header li a:hover {
-    color: #FAD239;
+    color: #B7A9AD;
 }
 
 header li a:active {
-    color: #FAD239;
+    color: #B7A9AD;
 }
 header li a:visited {
     color: #FFFFFF;
@@ -140,14 +142,14 @@ header li a:visited {
 /*------------------------------------------------------------------------------------------ FOOTER ------*/
 footer {
     text-align: center;
-    font-family: 'Avenir', sans-serif;
-/*    padding-top: 20px;*/
-    margin: 0;
+    font-family: 'Athelas', serif;
     padding: 0;
 }
-
+ 
 footer ul {
+    font-family: 'Montserrat', sans-serif;
     list-style-type: none;
+    font-size: 1.3em;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -174,99 +176,334 @@ footer li a:link {
 }
 
 footer li a:hover {
-    color: #FAD239;
+    color: #B7A9AD;
 }
 
 footer li a:active {
-    color: #FAD239;
+    color: #B7A9AD;
 }
 footer li a:visited {
     color: #FFFFFF;
 }
 
-footer h5 {
-    color: #DCE0D9;
-}
     
 .bottombar {
-    margin: 20px;
-    color: #FFFFFF;
-    font-size: 1em;
+    margin: 10px;
+    padding: 0;
 }
+
     
     
 /*---------------------------------------------------------------------------------------- HOME PAGE -----*/
 .container {
     position: relative;
     text-align: center;
-    color: white;
-    margin-top: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    height:800px;
+    overflow: hidden;
 }
-    
+
+.container img{
+    opacity: .5;
+
+}
+
 .centered {
     position: absolute;
-    text-align: center;
-    top: 30%;
-    left: 50%;
+    text-align: left;
+    top: 65%;
+    left: 42%;
     transform: translate(-50%, -50%);
     font-family: 'Avenir', sans-serif;
-    color: #ffffff;
-    font-size: 8vw;
+    color: #6B6466;
+    font-size: 5vw;
     width: 80%;
-    line-height: 8vw;
+    line-height: 6vw;
 }
     
-.centered2 {
-    position: absolute;
-    text-align: center;
-    font-size: 2vw;
-    width: 80%;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Avenir', sans-serif;
-    color: #ffffff;
-    font-weight: 100;
-    line-height: 4vw;
-    text-shadow: 1px .8px #000000;
-}
-
-#columns {
-    background-color: #ffffff;
+    .column1 h6, .column2 h6{
+        font-family: 'Playfair+Display', 'Times New Roman', serif;
+        color: #6B6466;
+        
+    }  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.maincolumns {
     display: flex;
     flex-direction: row;
-    padding: 20px 20px 0px 20px;
+    background-color: #6B6466;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}   
+    
+.maincolumns p, .maincolumns ul{
+    color: #FFFFFF;
+    font-family: 'Playfair+Display', serif;
+    padding: 0px;
+    padding-top: 5%;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.4;
+    width
+}
+   
+.maincolumns2 {
+   
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+    
+.maincolumns2 ul{
+    color: #6B6466;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    padding-top: 5%;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.4;
+}
+    
+    
+    
+       
+/*--------------------------------------------------------------------------------------TEMPLES-----------*/
+
+
+.centered1, .centered2, .centered3, .centered4{
+    position: absolute;
+    text-align: left;
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-family: 'Avenir', sans-serif;
+    color: #6B6466;
+    font-size: 6vw;
+    width: 80%;
+    line-height: 7vw;
+    padding-left: 20px; 
+}
+  
+    
+ /*------------------------------------------------------------------------------------TEMPLE PAGES-----*/
+    
+.templepage{
+    margin-top: 30px;
+}  
+    
+.templepage img{
+    opacity: 0.5;
+}   
+    
+.overlap{
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-family: 'Avenir', sans-serif;
+    color: #6B6466;
+    font-size: 6vw;
+    width: 80%;
+    line-height: 7vw;
+    padding-left: 20px; 
 }
 
-#columns img {
-    width: 30px;
-    opacity: 0.3; 
+.overlap2{
+    position: absolute;
+    text-align: left;
+    top: 42%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-family: 'Avenir', sans-serif;
+    color: #6B6466;
+    font-size: 2vw;
+    width: 80%;
+    line-height: 2.5vw;
+    padding-left: 20px; 
 }
-
-.column1 {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*---------------------------------------------------------------------------------------------CONTACT----*/
+ 
+ 
+    
+    
+    
+.map{
+    margin: 20px;
+    margin-left: 5%;
+    width: 40%;
+    overflow: hidden;
     float: left;
-    width: 55%;
-    padding: 40px;
+}    
+     
+.contactform{
+    margin: 20px;    
+    margin-left: 50%;
+    margin-right: 5%;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+}    
+    
+.contactinfo {
     text-align: center;
-    font-size: 1.8vw;
+    font-size: 1em;
+}
+       
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
     
-.column2 {
-    padding: 40px; 
-    width: 50%;  
-    text-align: center;
-    font-size: 1.8vw;
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
     
-.column2 a {
-    color: #000000;
-    text-decoration: none;
-}
-    
-.click {
-    font-weight: bold;
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
+input[type=submit] {
+  width: 100%;
+  background-color:     #6B6466;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#4CAF99;
+}
+
+
+
+    
+  
+ 
+    
+    
+  /*---------------------------------------------------------------SERVICES----------*/
+    
+.services1{
+    position: absolute;
+    text-align: left;
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-family: 'Avenir', sans-serif;
+    color: #6B6466;
+    font-size: 6vw;
+    width: 80%;
+    line-height: 7vw;
+    padding-left: 20px; 
+}
+    
+  /*---------------------------------------------------------------MISSIONARY----------*/
+
+    .missionaryleft{
+        width: 45%;
+        float: left;
+        margin: 5% 0px 0px 30px;
+        
+    }
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 /*-------------------------------------------------------------------------------------------- PROCESS ---*/
 .processdetails div {
@@ -422,74 +659,6 @@ footer h5 {
     padding-left: 20px;
 }
     
-    
-/*---------------------------------------------------------------------------------------------CONTACT----*/
-.contactme p {
-padding-left: 20px;
-font-family: 'Avenir', sans-serif;
-font-size: 1em;
-    color: #ffffff;
-}    
-       
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #CCCCCC;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-    
-input[type=email], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #CCCCCC;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-    
-input[type=tel], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #CCCCCC;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color:#4CAF99;
-}
-
-.contactform {
-  border-radius: 5px;
-  background-color: #F2F2F2;
-  padding: 10px;
-    margin-left: 25%;
-    margin-right:25%;
-    width: 50%;
-}
-    
-.contactinfo {
-    text-align: center;
-    font-size: 1em;
-}
-
     
     
  /*----------------------------------------------------------------------------------- THANK YOU --------*/
