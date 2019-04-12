@@ -192,7 +192,7 @@ footer li a:hover:not(.active) {
     
     
  /*---------------------------------------------------------------------------------------- HOME PAGE -----*/
-.container {
+.container .maincolumns{
     position: relative;
     text-align: center;
     color: #FFFFFF;
@@ -221,16 +221,10 @@ footer li a:hover:not(.active) {
 }
     
     
-.maincolumns {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-           font-family: 'Avenir', sans-serif;
-}   
     
 .maincolumns p, .maincolumns ul{
     color: #6B6466;
- 
+ font-family: 'Avenir', sans-serif;
     padding: 10px;
     padding-top: 5%;
     font-size: 1.3em;
