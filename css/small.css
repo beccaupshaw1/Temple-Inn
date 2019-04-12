@@ -207,7 +207,7 @@ footer li a:hover:not(.active) {
     line-height: 22px;
 }
     
-.maincolumns p, .maincolumns ul li a{
+.maincolumns .column1 p, .maincolumns .column1 ul li a{
     color: #6B6466;
     font-family: 'Avenir', sans-serif;
     padding: 10px;
