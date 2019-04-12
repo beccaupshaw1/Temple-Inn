@@ -99,28 +99,28 @@ header ul {
     text-decoration: none;
 }
 
-li a {
+header li a {
     display: block;
     color: #FFFFFF;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li {
+header li {
     text-align: center;
     border-bottom: 1px solid #000000;
 }
 
-li:last-child {
+header li:last-child {
     border-bottom: none;
 }
 
-li a.active {
+header li a.active {
     background-color: #000000;
     color: white;
 }
 
-li a:hover:not(.active) {
+header li a:hover:not(.active) {
     background-color:#000000;
     color: white;
 }
