@@ -66,20 +66,7 @@ p{
     margin: 0;
 }
     
-    
-.column1 {
-    float: left;
-    padding: 100px 15px 100px 30px;
 
-}
-    
-.column2 {
-    padding: 100px 30px 100px 15px; 
-    font-size: 1.8vw;
-    line-height: 1.4;
-    text-align: left;
-    font-weight: bold;
-}
 
     
 /*----------------------------------------------------------------------------------------- HEADER -------*/
@@ -88,7 +75,7 @@ header img {
     width: 100%;
     height: auto;
     align-content: center;
-    margin-top: 10px;
+    padding: 20px;
         
 }
 
@@ -209,14 +196,14 @@ footer li a:hover:not(.active) {
 .centered {
     position: absolute;
     text-align: left;
-    top: 35%;
+    top: 50%;
     left: 42%;
     transform: translate(-50%, -50%);
     font-family: 'Avenir', sans-serif;
     color: #6B6466;
-    font-size: 16px;
+    font-size: 22px;
     width: 80%;
-    line-height: 16px;
+    line-height: 22px;
 }
     
 .maincolumns p, .maincolumns ul{
