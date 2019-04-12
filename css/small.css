@@ -231,6 +231,17 @@ footer li a:hover:not(.active) {
     line-height: 1.4;
     
 }
+.list{
+    color: #6B6466;
+    font-family: 'Avenir', sans-serif;
+    padding: 10px;
+    padding-top: 5%;
+    font-size: 1.3em;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.4;
+    }
     
 
 
