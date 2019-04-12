@@ -231,6 +231,11 @@ footer li a:hover:not(.active) {
     line-height: 1.4;
     
 }
+    
+.maincolumns img{
+    height: 200px;
+    overflow: hidden
+}
 
     
        
