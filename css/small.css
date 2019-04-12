@@ -218,7 +218,18 @@ footer li a:hover:not(.active) {
     line-height: 1.4;
     
 }
-   
+.maincolumns h6{
+    color: #6B6466;
+    font-family: 'Avenir', sans-serif;
+    padding: 10px;
+    padding-top: 5%;
+    font-size: 2em;
+    margin: 0;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.4;
+    
+}
 
     
        
