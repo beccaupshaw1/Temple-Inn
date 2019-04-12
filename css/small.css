@@ -195,7 +195,6 @@ footer li a:hover:not(.active) {
 .container .maincolumns{
     position: relative;
     text-align: center;
-    color: #FFFFFF;
     margin: 0;
     padding: 0;
     line-height: 0;
@@ -210,7 +209,7 @@ footer li a:hover:not(.active) {
 .centered {
     position: absolute;
     text-align: left;
-    top: 25%;
+    top: 35%;
     left: 42%;
     transform: translate(-50%, -50%);
     font-family: 'Avenir', sans-serif;
