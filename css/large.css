@@ -74,20 +74,6 @@ p{
     margin: 0;
 }
     
-    
-.column1 {
-    float: left;
-    padding: 100px 15px 100px 30px;
-
-}
-    
-.column2 {
-    padding: 100px 30px 100px 15px; 
-    font-size: 1.8vw;
-    line-height: 1.4;
-    text-align: left;
-    font-weight: bold;
-}
 
 
     
@@ -195,6 +181,7 @@ footer li a:visited {
     
     
 /*---------------------------------------------------------------------------------------- HOME PAGE -----*/
+
 .container {
     position: relative;
     text-align: center;
@@ -202,88 +189,61 @@ footer li a:visited {
     margin: 0;
     padding: 0;
     line-height: 0;
-    height:800px;
-    overflow: hidden;
 }
 
 .container img{
     opacity: .5;
-
 }
 
 .centered {
     position: absolute;
     text-align: left;
-    top: 65%;
+    top: 45%;
     left: 42%;
     transform: translate(-50%, -50%);
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #6B6466;
     font-size: 5vw;
     width: 80%;
     line-height: 6vw;
 }
     
-    .column1 h6, .column2 h6{
-        font-family: 'Playfair+Display', 'Times New Roman', serif;
-        color: #6B6466;
-        
-    }  
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 .maincolumns {
     display: flex;
     flex-direction: row;
-    background-color: #6B6466;
-    outline: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-
-}   
-    
-.maincolumns p, .maincolumns ul{
-    color: #FFFFFF;
-    font-family: 'Playfair+Display', serif;
-    padding: 0px;
-    padding-top: 5%;
-    font-size: 30px;
-    margin: 0;
-    text-align: left;
-    font-weight: 400;
-    line-height: 1.4;
-    width
-}
-   
-.maincolumns2 {
-   
-    display: flex;
-    flex-direction: row;
     background-color: #FFFFFF;
     outline: none;
-    margin: 0;
+    margin: 20px;
+    margin-left: 400px;
     padding: 0;
     width: 100%
+}   
+   
+.maincolumns img{
+    width: 400px;
+    float: right;
+    margin: 20px;
 }
     
-.maincolumns2 ul{
+.maincolumns p, .maincolumns ul{
+    width: 900px;
     color: #6B6466;
+    padding: 30px;
     font-family: 'Montserrat', sans-serif;
-    padding: 0px;
-    padding-top: 5%;
-    font-size: 30px;
+    font-size: 1.3em;
     margin: 0;
     text-align: left;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.8;
+}
+
+.maincolumns h6{
+    color: #6B6466;
+    font-size: 36px;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+   
 }
     
     
